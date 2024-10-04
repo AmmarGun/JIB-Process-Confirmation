@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #2ed3c2 0%, #6beae3 50%, #50d3ea 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.container {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* JIB Upload Button */
+#pdfUpload {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #46f8c9;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1049d8;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #56f1f1;
+}
+
+/* Uploaded JIB List */
+#pdfList {
+    text-align: left;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #76e5f9;
+}
+
+/* JIB Viewer */
+iframe {
+    border: 2px solid #76e5f9;
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
